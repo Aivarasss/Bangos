@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+*{
+        padding:0;
+	margin:0;
+	box-sizing: border-box;
+}
+header{
+	width:100%;
+	height:100vh;
+	background-image: url(jura.jpg);
+	background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+	padding: 5px;
+	outline:2px solid blue;
+}
+.banga{
+	width:100%;
+	height:140px;
+	background-image: url(banga.png);
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.banga1{
+	animation-name:bangavimas1;
+	animation-duration:30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+@keyframes bangavimas1{
+	0%{background-position:0;}
+	100%{background-position:1360px;}
+}
+
+
+.banga2{
+    animation-name:bangavimas2;
+	animation-duration:30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay:5s;
+}
+@keyframes bangavimas2{
+	0%{background-position:0;}
+	100%{background-position:-1360px;}
+}
+.banga3{
+	animation-name:bangavimas3;
+	animation-duration:30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-delay:-10s;
+	opacity: 0.2;
+}
+@keyframes bangavimas3{
+	0%{background-position:0;}
+	100%{background-position:1360px;}
+}
+banga4{
+    animation-name: bangavimas4;
+	animation-duration:30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	opacity: 0.7;
+	animation-delay: -15s;
+}
+@keyframes bangavimas4{
+	0%{background-position:0;}
+	100%{background-position:-1360px;}
+}
+h1{
+    width:50%;
+	margin:150px auto;
+	text-align: center;
+	font-size:80px;
+	font-family: 'New Tegomin', serif;
+	position:relative;
+	animation-name: judesys;
+	animation-duration:1s;
+	animation-timing-function: linear;
+	animation-direction: reverse;
+	
+	
+	
+}
+@keyframes judesys{
+	0%{top; left: 0;}
+	100%{top:0; left:-600px; font-size:10px; opacity: 0;}
+}
+main{
+	width:100%;
+	height:600px;
+	text-align: center;
+}
+h2{
+    text-align: center;
+	margin:30px;
+}
+p{
+	width:47%;
+	height:auto;
+	display:block;
+	padding:8px;
+	outline:2px solid blue;
+	text-align: justify;
+	display:inline-block;
+	margin:10px;
+}
+footer{
+	height:300px;
+	width:100%;
+	background-color:blueviolet;
+	text-align: center;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
